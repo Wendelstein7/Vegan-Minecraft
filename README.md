@@ -2,6 +2,16 @@
 
 This is a Minecraft Datapack that adds a few features to Minecraft, allowing for a more vegan experience. It provides a few alternative crafting recipes to substitute animal-based ingredients with plant-based ones.
 
+## Downloads
+*A list of all downloads is available at the [GitHub releases overview](https://github.com/Wendelstein7/Vegan-Minecraft/releases).*
+
+### Minecraft 1.19
+
+Latest version for M**inecraft 1.19** is `v1.0` - Download: **[vegan-minecraft-v1.0-mc1.19.zip](https://github.com/Wendelstein7/Vegan-Minecraft/releases/download/v1.0/vegan-minecraft-v1.0-mc1.19.zip)**
+
+### Minecraft 1.18.2
+Latest version for **Minecraft 1.18.2** is `v1.0` - Download: **[vegan-minecraft-v1.0-mc1.18.2.zip](https://github.com/Wendelstein7/Vegan-Minecraft/releases/download/v1.0/vegan-minecraft-v1.0-mc1.18.2.zip)**
+
 
 # Guide
 How to obtain vegan items in Minecraft with this datapack:
