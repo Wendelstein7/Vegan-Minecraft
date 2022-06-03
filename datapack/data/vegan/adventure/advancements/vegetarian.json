@@ -1,307 +1,306 @@
 {
   "display": {
     "title": {
-      "text": "Non-vegan",
-      "color": "dark_red",
-      "bold": true
+      "text": "Non-vegetarian",
+      "color": "dark_red"
     },
     "description": {
-      "text": "Harm a non-aggressive mob.",
+      "text": "Kill a non-aggressive mob.",
       "color": "red",
-      "italic": true
+      "italic": true,
+      "bold": false
     },
     "icon": {
-      "item": "minecraft:barrier"
+      "item": "minecraft:bone"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    "hidden": false
   },
   "criteria": {
-    "hurt_axolotl": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_axolotl": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:axolotl"
         }
       }
     },
-    "hurt_bat": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_bat": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:bat"
         }
       }
     },
-    "hurt_bee": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_bee": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:bee"
         }
       }
     },
-    "hurt_cat": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_cat": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:cat"
         }
       }
     },
-    "hurt_chicken": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_chicken": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:chicken"
         }
       }
     },
-    "hurt_cod": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_cod": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:cod"
         }
       }
     },
-    "hurt_cow": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_cow": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:cow"
         }
       }
     },
-    "hurt_dolphin": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_dolphin": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:dolphin"
         }
       }
     },
-    "hurt_donkey": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_donkey": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:donkey"
         }
       }
     },
-    "hurt_fox": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_fox": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:fox"
         }
       }
     },
-    "hurt_goat": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_goat": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:goat"
         }
       }
     },
-    "hurt_glow_squid": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_glow_squid": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:glow_squid"
         }
       }
     },
-    "hurt_horse": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_horse": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:horse"
         }
       }
     },
-    "hurt_iron_golem": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_iron_golem": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:iron_golem"
         }
       }
     },
-    "hurt_llama": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_llama": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:llama"
         }
       }
     },
-    "hurt_mooshroom": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:mooshroom"
         }
       }
     },
-    "hurt_mule": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_mule": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:mule"
         }
       }
     },
-    "hurt_ocelot": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_ocelot": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:ocelot"
         }
       }
     },
-    "hurt_parrot": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_parrot": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:parrot"
         }
       }
     },
-    "hurt_panda": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_panda": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:panda"
         }
       }
     },
-    "hurt_pig": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_pig": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:pig"
         }
       }
     },
-    "hurt_polar_bear": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_polar_bear": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:polar_bear"
         }
       }
     },
-    "hurt_pufferfish": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_pufferfish": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:pufferfish"
         }
       }
     },
-    "hurt_rabbit": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:rabbit"
         }
       }
     },
-    "hurt_salmon": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_salmon": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:salmon"
         }
       }
     },
-    "hurt_sheep": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_sheep": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:sheep"
         }
       }
     },
-    "hurt_skeleton_horse": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:skeleton_horse"
         }
       }
     },
-    "hurt_snow_golem": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_snow_golem": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:snow_golem"
         }
       }
     },
-    "hurt_squid": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_squid": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:squid"
         }
       }
     },
-    "hurt_strider": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_strider": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:strider"
         }
       }
     },
-    "hurt_trader_llama": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_trader_llama": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:trader_llama"
         }
       }
     },
-    "hurt_tropical_fish": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_tropical_fish": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:tropical_fish"
         }
       }
     },
-    "hurt_turtle": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_turtle": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:turtle"
         }
       }
     },
-    "hurt_villager": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_villager": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:villager"
         }
       }
     },
-    "hurt_wandering_trader": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_wandering_trader": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:wandering_trader"
         }
       }
     },
-    "hurt_wolf": {
-      "trigger": "minecraft:player_hurt_entity",
+    "killed_wolf": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:wolf"
@@ -311,42 +310,43 @@
   },
   "requirements": [
     [
-      "hurt_axolotl",
-      "hurt_bat",
-      "hurt_bee",
-      "hurt_cat",
-      "hurt_chicken",
-      "hurt_cod",
-      "hurt_cow",
-      "hurt_dolphin",
-      "hurt_donkey",
-      "hurt_fox",
-      "hurt_goat",
-      "hurt_glow_squid",
-      "hurt_horse",
-      "hurt_iron_golem",
-      "hurt_llama",
-      "hurt_mooshroom",
-      "hurt_mule",
-      "hurt_ocelot",
-      "hurt_parrot",
-      "hurt_panda",
-      "hurt_pig",
-      "hurt_polar_bear",
-      "hurt_pufferfish",
-      "hurt_rabbit",
-      "hurt_salmon",
-      "hurt_sheep",
-      "hurt_skeleton_horse",
-      "hurt_snow_golem",
-      "hurt_squid",
-      "hurt_strider",
-      "hurt_trader_llama",
-      "hurt_tropical_fish",
-      "hurt_turtle",
-      "hurt_villager",
-      "hurt_wandering_trader",
-      "hurt_wolf"
+      "killed_axolotl",
+      "killed_bat",
+      "killed_bee",
+      "killed_cat",
+      "killed_chicken",
+      "killed_cod",
+      "killed_cow",
+      "killed_dolphin",
+      "killed_donkey",
+      "killed_fox",
+      "killed_goat",
+      "killed_glow_squid",
+      "killed_horse",
+      "killed_iron_golem",
+      "killed_llama",
+      "killed_mooshroom",
+      "killed_mule",
+      "killed_ocelot",
+      "killed_parrot",
+      "killed_panda",
+      "killed_pig",
+      "killed_polar_bear",
+      "killed_pufferfish",
+      "killed_rabbit",
+      "killed_salmon",
+      "killed_sheep",
+      "killed_skeleton_horse",
+      "killed_snow_golem",
+      "killed_squid",
+      "killed_strider",
+      "killed_trader_llama",
+      "killed_tropical_fish",
+      "killed_turtle",
+      "killed_villager",
+      "killed_wandering_trader",
+      "killed_wolf"
     ]
-  ]
+  ],
+  "parent": "vegan:vegan"
 }

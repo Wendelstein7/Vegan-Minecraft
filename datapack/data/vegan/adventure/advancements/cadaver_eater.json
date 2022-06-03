@@ -7,7 +7,8 @@
     "description": {
       "text": "Eat a piece of non-aggressive mob corpse.",
       "color": "red",
-      "italic": true
+      "italic": true,
+      "bold": false
     },
     "icon": {
       "item": "minecraft:rotten_flesh"
@@ -176,5 +177,5 @@
       "consumed_rabbit_stew"
     ]
   ],
-  "parent": "adventure:vegan"
+  "parent": "vegan:vegan"
 }
