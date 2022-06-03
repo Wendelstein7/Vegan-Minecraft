@@ -38,9 +38,7 @@
       "trigger": "minecraft:recipe_unlocked"
     }
   },
-  "requirements": [
-    ["has_glowstone_dust", "has_ink_sac", "has_redstone", "has_self"]
-  ],
+  "requirements": [["has_charcoal", "has_wheat", "has_sugar", "has_self"]],
   "rewards": {
     "recipes": ["vegan:gunpowder"]
   }

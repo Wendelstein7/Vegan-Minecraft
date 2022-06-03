@@ -33,7 +33,7 @@
     },
     "has_self": {
       "conditions": {
-        "recipe": "vegan:glow_ink"
+        "recipe": "vegan:glow_ink_sac"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -42,6 +42,6 @@
     ["has_glowstone_dust", "has_ink_sac", "has_redstone", "has_self"]
   ],
   "rewards": {
-    "recipes": ["vegan:glow_ink"]
+    "recipes": ["vegan:glow_ink_sac"]
   }
 }

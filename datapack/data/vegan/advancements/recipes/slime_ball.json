@@ -23,13 +23,13 @@
     },
     "has_self": {
       "conditions": {
-        "recipe": "vegan:slime"
+        "recipe": "vegan:slime_ball"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [["has_vine", "has_clay_ball", "has_self"]],
   "rewards": {
-    "recipes": ["vegan:slime"]
+    "recipes": ["vegan:slime_ball"]
   }
 }
