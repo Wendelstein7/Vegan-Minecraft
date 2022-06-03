@@ -1,0 +1,25 @@
+{
+  "parent": "vegan:recipes/root",
+  "criteria": {
+    "has_wheat": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_self": {
+      "conditions": {
+        "recipe": "vegan:string"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [["has_wheat", "has_self"]],
+  "rewards": {
+    "recipes": ["vegan:string"]
+  }
+}

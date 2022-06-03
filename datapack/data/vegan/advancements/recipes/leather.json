@@ -1,0 +1,35 @@
+{
+  "parent": "vegan:recipes/root",
+  "criteria": {
+    "has_lilypad": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lily_pad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_campfire": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_self": {
+      "conditions": {
+        "recipe": "vegan:leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [["has_lilypad", "has_campfire", "has_self"]],
+  "rewards": {
+    "recipes": ["vegan:leather"]
+  }
+}
