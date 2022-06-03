@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["impossible"]],
+  "rewards": {
+    "recipes": [
+      "vegan:feather",
+      "vegan:glow_ink",
+      "vegan:gunpowder",
+      "vegan:ink",
+      "vegan:leather",
+      "vegan:slime",
+      "vegan:string"
+    ]
+  }
+}
