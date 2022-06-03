@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:lily_pad"
+  },
+  "result": "minecraft:rabbit_hide",
+  "experience": 0,
+  "cookingtime": 300
+}

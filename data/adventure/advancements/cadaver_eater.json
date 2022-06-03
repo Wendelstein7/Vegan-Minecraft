@@ -1,0 +1,180 @@
+{
+  "display": {
+    "title": {
+      "text": "Cadaver-eater",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Eat a piece of non-aggressive mob corpse.",
+      "color": "red",
+      "italic": true
+    },
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "consumed_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:porkchop"
+        }
+      }
+    },
+    "consumed_cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_porkchop"
+        }
+      }
+    },
+    "consumed_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beef"
+        }
+      }
+    },
+    "consumed_cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_beef"
+        }
+      }
+    },
+    "consumed_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod"
+        }
+      }
+    },
+    "consumed_cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_cod"
+        }
+      }
+    },
+    "consumed_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon"
+        }
+      }
+    },
+    "consumed_cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_salmon"
+        }
+      }
+    },
+    "consumed_pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish"
+        }
+      }
+    },
+    "consumed_tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+    },
+    "consumed_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mutton"
+        }
+      }
+    },
+    "consumed_cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+    },
+    "consumed_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit"
+        }
+      }
+    },
+    "consumed_cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      }
+    },
+    "consumed_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:chicken"
+        }
+      }
+    },
+    "consumed_cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+    },
+    "consumed_rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "consumed_porkchop",
+      "consumed_cooked_porkchop",
+      "consumed_beef",
+      "consumed_cooked_beef",
+      "consumed_cod",
+      "consumed_cooked_cod",
+      "consumed_salmon",
+      "consumed_cooked_salmon",
+      "consumed_pufferfish",
+      "consumed_tropical_fish",
+      "consumed_mutton",
+      "consumed_cooked_mutton",
+      "consumed_rabbit",
+      "consumed_cooked_rabbit",
+      "consumed_chicken",
+      "consumed_cooked_chicken",
+      "consumed_rabbit_stew"
+    ]
+  ],
+  "parent": "adventure:vegan"
+}

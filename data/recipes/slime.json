@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "#C#", " # "],
+  "key": {
+    "#": {
+      "item": "minecraft:vine"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}
