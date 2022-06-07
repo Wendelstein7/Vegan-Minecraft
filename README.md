@@ -41,6 +41,11 @@ You can craft vegan gunpowder using **sugar**, **wheat** and **coal**.
 
 ![Crafting](assets/gunpowder.png)
 
+## [Slime Ball](datapack/data/vegan/recipes/slime_ball.json)
+You can craft vegan slime balls using **clay** and **vines**.
+
+![Crafting](assets/slime.png)
+
 ## [Leather](datapack/data/vegan/recipes/leather.json)
 You can craft vegan leather by roasting **lily pads** on a **campfire**. First, craft a campfire:
 
