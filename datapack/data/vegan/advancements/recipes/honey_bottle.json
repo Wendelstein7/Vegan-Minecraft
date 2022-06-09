@@ -1,0 +1,45 @@
+{
+  "parent": "vegan:recipes/root",
+  "criteria": {
+    "has_orange_dye": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_potion": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_self": {
+      "conditions": {
+        "recipe": "vegan:honey_bottle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [["has_orange_dye", "has_sugar", "has_potion", "has_self"]],
+  "rewards": {
+    "recipes": ["vegan:honey_bottle", "vegan:honey_bottle_alt"]
+  }
+}

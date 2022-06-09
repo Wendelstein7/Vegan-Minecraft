@@ -1,0 +1,47 @@
+{
+  "parent": "vegan:recipes/root",
+  "criteria": {
+    "has_blaze_powder": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_self": {
+      "conditions": {
+        "recipe": "vegan:gunpowder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    ["has_blaze_powder", "has_gold_nugget", "has_stick", "has_self"]
+  ],
+  "rewards": {
+    "recipes": ["vegan:blaze_rod", "vegan:blaze_rod_alt"]
+  }
+}

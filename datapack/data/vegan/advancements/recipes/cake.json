@@ -1,0 +1,63 @@
+{
+  "parent": "vegan:recipes/root",
+  "criteria": {
+    "has_milk_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:milk_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:honey_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wheat": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_self": {
+      "conditions": {
+        "recipe": "vegan:cake"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_milk_bucket",
+      "has_sugar",
+      "has_honey_bottle",
+      "has_wheat",
+      "has_self"
+    ]
+  ],
+  "rewards": {
+    "recipes": ["vegan:cake"]
+  }
+}
