@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:string"
+            "items": ["minecraft:string"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stick"
+            "items": ["minecraft:stick"]
           }
         ]
       },

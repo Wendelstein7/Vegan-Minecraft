@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:milk_bucket"
+            "items": ["minecraft:milk_bucket"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sugar"
+            "items": ["minecraft:sugar"]
           }
         ]
       },
@@ -25,7 +25,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:honey_bottle"
+            "items": ["minecraft:honey_bottle"]
           }
         ]
       },
@@ -35,7 +35,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wheat"
+            "items": ["minecraft:wheat"]
           }
         ]
       },

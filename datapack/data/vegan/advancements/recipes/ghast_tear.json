@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glowstone_dust"
+            "items": ["minecraft:glowstone_dust"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:fire_charge"
+            "items": ["minecraft:fire_charge"]
           }
         ]
       },
@@ -25,7 +25,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glow_ink_sac"
+            "items": ["minecraft:glow_ink_sac"]
           }
         ]
       },
@@ -35,7 +35,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:blaze_powder"
+            "items": ["minecraft:blaze_powder"]
           }
         ]
       },
@@ -45,7 +45,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:quartz"
+            "items": ["minecraft:quartz"]
           }
         ]
       },

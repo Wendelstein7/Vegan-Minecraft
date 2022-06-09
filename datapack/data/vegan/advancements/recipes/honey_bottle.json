@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:orange_dye"
+            "items": ["minecraft:orange_dye"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sugar"
+            "items": ["minecraft:sugar"]
           }
         ]
       },
@@ -25,7 +25,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:potion"
+            "items": ["minecraft:potion"]
           }
         ]
       },

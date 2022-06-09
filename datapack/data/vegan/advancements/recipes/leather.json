@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lily_pad"
+            "items": ["minecraft:lily_pad"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:campfire"
+            "items": ["minecraft:campfire"]
           }
         ]
       },

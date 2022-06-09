@@ -1,9 +1,8 @@
 {
   "criteria": {
-    "tick": {
-      "conditions": {},
-      "trigger": "minecraft:tick"
+    "impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
-  "requirements": [["tick"]]
+  "requirements": [["impossible"]]
 }

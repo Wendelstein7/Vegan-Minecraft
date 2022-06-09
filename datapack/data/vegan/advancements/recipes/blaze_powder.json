@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glowstone_dust"
+            "items": ["minecraft:glowstone_dust"]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gold_nugget"
+            "items": ["minecraft:gold_nugget"]
           }
         ]
       },
@@ -25,7 +25,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:nether_wart"
+            "items": ["minecraft:nether_wart"]
           }
         ]
       },
@@ -35,7 +35,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gunpowder"
+            "items": ["minecraft:gunpowder"]
           }
         ]
       },
