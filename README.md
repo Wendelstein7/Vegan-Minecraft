@@ -123,7 +123,8 @@ _(Note that this can be done only in a **blasting furnace**. Blaze rod is not re
 # Changelog
 
 ### Version 1.1
-Added recipes for `ender pearl`, `honey bottle`, `ghast tear`, `pumpkin pie`, `cake`, `blaze rod`, `blaze powder` and `milk buckets`.
+- Added recipes for `ender pearl`, `honey bottle`, `ghast tear`, `pumpkin pie`, `cake`, `blaze rod`, `blaze powder` and `milk buckets`.
+- Fixed recipe unlocking, now works properly.
 
 Credits and gratitude to [@ACascarino](https://github.com/ACascarino) and the [vegcraft](https://github.com/ACascarino/vegcraft) datapack for inspiration for these changes! `ACascarino/vegcraft` is licenced under the [MIT license](https://github.com/ACascarino/vegcraft/blob/develop/LICENSE).
 
