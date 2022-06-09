@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "blaze_powder",
   "pattern": ["#G#", "NEN", "#G#"],
   "key": {
     "#": {
