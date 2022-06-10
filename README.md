@@ -120,6 +120,16 @@ You can craft or blast vegan ender pearls using **chorus fruit**.
 
 _(Note that this can be done only in a **blasting furnace**. Blaze rod is not required.)_
 
+
+## [Milk Bucket](datapack/data/vegan/recipes/milk_bucket.json)
+You can craft vegan milk (oat milk) using **buckets**, **water buckets** and **wheat**.
+
+![Crafting](assets/milk_bucket.png)
+
+ _(Note that the two buckets are required to prevent bucket duplication, you will get two buckets back after crafting, one of which will contain milk.)_
+
+
+
 # Changelog
 
 ### Version 1.1
