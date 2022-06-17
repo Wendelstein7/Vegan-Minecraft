@@ -1,0 +1,53 @@
+name: Create draft release with zipped datapacks
+# Trigger on new tag
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+env:
+  # Name of the archive .zip and .tar.gz archives without extension. Tag will be appended to this.
+  ARCHIVE_PREFIX: ${{ github.event.repository.name }}
+  ARCHIVE_DIR: datapack
+
+jobs:
+  build-and-draft-release:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        include:
+          - minecraft_version: 1.17.1
+            pack_format: 7
+          - minecraft_version: 1.18.2
+            pack_format: 9
+          - minecraft_version: 1.19
+            pack_format: 10
+
+    steps:
+      # Checkout repository.
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set the pack_format that matches the minecraft_version
+      - name: Set pack_format
+        run: |
+          sed -i 's/\"pack_format\":\ [0-9]\+,/\"pack_format\":\ ${{ matrix.pack_format }},/' datapack/pack.mcmeta
+      
+      # Set ARCHIVE_NAME variable from ARCHIVE_PREFIX and tag name.
+      - name: Set ARCHIVE_NAME
+        run: echo "ARCHIVE_NAME=${ARCHIVE_PREFIX}_${GITHUB_REF/refs\/tags\//}_mc${{ matrix.minecraft_version }}" >> $GITHUB_ENV
+      
+      # Archive binary files.
+      - name: Archive binary files
+        run: |
+          cd $ARCHIVE_DIR
+          zip -r $ARCHIVE_NAME.zip *
+      
+      # Create a release draft
+      - name: Create draft release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          files: |
+            ${{ env.ARCHIVE_DIR }}/${{ env.ARCHIVE_NAME }}.zip
